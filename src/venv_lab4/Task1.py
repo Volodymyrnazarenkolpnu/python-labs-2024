@@ -9,39 +9,39 @@ class Video:
         self.description = ""
     
     def get_name(self):
-        return (f"Name = {self.__name}")
+        print(f"Name = {self.__name}")
 
     def get_vimeo_views(self):
-        return (f"Vimeo_views = {self.vimeo_views}")
+        print(f"Vimeo_views = {self.vimeo_views}")
 
     def get_author(self):
-        return (f"Author = {self.__author}")
+        print(f"Author = {self.__author}")
 
     def get_views(self):
-        return (f"Views = {self.__views}")
+        print(f"Views = {self.__views}")
     
     def get_length(self):
-        return (f"length = {self.__length}")
+        print(f"length = {self.__length}")
     
     def set_name(self, __name):
         self.__name = __name
-        return (f"name is now {self.__name}")
+        print(f"name is now {self.__name}")
     
     def set_vimeo_views(self, __name):
         self.vimeo_views += vimeo_views
-        return (f"Vimeo_Views is now {self.vimeo_views}")
+        print(f"Vimeo_Views is now {self.vimeo_views}")
 
     def set_author(self, __author):
         self.__author = __author
-        return (f"author is now {self.__author}")
+        print(f"author is now {self.__author}")
     
     def set_views(self, __views):
         self.__views = __views
-        return (f"views is now {self.__views}")
+        print(f"views is now {self.__views}")
     
     def set_length(self, __length):
         self.__length = __length
-        return (f"length is now {self.__length}")
+        print(f"length is now {self.__length}")
 
 
     def __repr__(self):
